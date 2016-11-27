@@ -1,4 +1,13 @@
-Technologies:
+## Continuous Integrations
+
+### Travis CI
+[![Build Status](https://travis-ci.org/sergiofilhowz/node-api-skeleton.svg?branch=master)](https://travis-ci.org/sergiofilhowz/node-api-skeleton)
+
+
+## CircleCI
+[![CircleCI](https://circleci.com/gh/sergiofilhowz/node-api-skeleton.svg?style=svg)](https://circleci.com/gh/sergiofilhowz/node-api-skeleton)
+
+## Technologies:
 
 * express
 * express-power-router
