@@ -15,24 +15,27 @@
 * socket.io
 * acqua
 * saphyre-data
+* sequelize-migration-2
 
 Tests were developed with mocha.
 
-NodeJS version used was 7.0.1
+NodeJS version used was 7.1.0
 
 # Instructions on how to install
 
 ## Before start
-    - npm install
+    - $ git clone git@github.com:sergiofilhowz/node-api-skeleton.git
+    - $ cd node-api-skeleton
+    - $ npm install
     - configure config/default.json file
 
 ## To start
-    - npm start
+    - $ npm start
 
-## Before test backend
+## Before test
     - create a new mysql database instance
     - configure config/test.json file
 
-## To test backend
+## To test
     - npm test
     - npm run cover (for coverage report)
