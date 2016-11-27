@@ -3,13 +3,14 @@ machine:
     version: 7.1.0
 
   environment:
+    SYNC: true
     USE_ENVS: true
+
     DB_DIALECT: mysql
     DB_HOST: localhost
     DB_PORT: 3306
     DB_NAME: circle_test
     DB_USERNAME: ubuntu
-    DB_PASSWORD:
 
 dependencies:
   override:

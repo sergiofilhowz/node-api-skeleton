@@ -11,7 +11,7 @@ var _ = require('lodash'),
 
 _.forEach(process.env, (value, key) => config[key] = value);
 
-if (!production || process.env.USE_ENVS) {
+if (!production && !process.env.USE_ENVS) {
     // overrides process.env
     _.forEach(cfg, (value, key) => {
         config[key] = value;
