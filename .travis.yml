@@ -11,7 +11,7 @@ branches:
     - master
 
 env:
-  - SYNC=true USE_ENVS=true DB_DIALECT=mysql DB_NAME=test DB_HOST=127.0.0.1 DB_PORT=3306
+  - SYNC=true USE_ENVS=true DB_DIALECT=mysql DB_USERNAME=travis DB_NAME=test DB_HOST=127.0.0.1 DB_PORT=3306
 
 cache:
   directories:
