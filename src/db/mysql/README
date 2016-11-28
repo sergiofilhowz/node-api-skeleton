@@ -1,0 +1,11 @@
+Scripts on this folder must have the following pattern:
+
+V{YYYY}{MM}{DD}{HH}{mm}{ss}{mmm}__file_description.sql
+
+{YYYY} = Year in 4 digit
+{MM} = Month in 2 digit (01 ~ 12)
+{DD} = Day of month in 2 digit (01 ~ 31)
+{HH} = Hour of day in 2 digit (00 ~ 23)
+{mm} = Minute in 2 digit (00 ~ 59)
+{ss} = Second in 2 digit (00 ~ 59)
+{mmm} = Milisecond in 3 digit (000 ~ 999)
