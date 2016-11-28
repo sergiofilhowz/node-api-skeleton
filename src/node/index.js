@@ -66,7 +66,7 @@ if (config.get('ALLOW_ORIGIN')) {
 /**
  * This is the application entry point
  */
-app.use('/api', powerRouter);
+app.use('/', powerRouter);
 
 /**
  * Starts the application
