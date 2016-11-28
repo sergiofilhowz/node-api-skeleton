@@ -7,7 +7,8 @@ module.exports = function (sequelize, DataTypes) {
     var Sample = sequelize.define('Sample', {
         sample_id : {
             type : DataTypes.BIGINT,
-            primaryKey : true
+            primaryKey : true,
+            autoIncrement : true
         },
 
         name : DataTypes.STRING
