@@ -63,7 +63,10 @@ if (config.get('ALLOW_ORIGIN')) {
     });
 }
 
-app.use(powerRouter);
+/**
+ * This is the application entry point
+ */
+app.use('/api', powerRouter);
 
 /**
  * Starts the application

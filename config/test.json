@@ -4,6 +4,7 @@
   "VERBOSE": false,
   "SYNC": true,
 
+  "PORT": 8875,
   "DB_DIALECT": "mysql",
   "DB_HOST": "localhost",
   "DB_PORT": 8889,
